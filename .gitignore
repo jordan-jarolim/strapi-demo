@@ -1,0 +1,36 @@
+/node_modules/
+dist/
+coverage/
+shm/
+
+build/*
+!build/Dockerfile*
+
+.DS_Store
+.idea
+.vscode
+.history
+.env
+yarn.lock
+
+npm-debug.log*
+npm-error.log*
+
+# docker stuff
+/.unison*
+/.docker-sync
+
+/_logs
+
+/reports/junit.xml
+
+# k8s stuff
+/k8s/current/*.overlay.yaml
+
+# loadable file
+loadable.stats.webpack.json
+
+# dev env
+/telepresence.log
+
+/dump.lsif
